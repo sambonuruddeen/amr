@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/nuruddeen/Dev/jed-amr/jed-amr.csproj": {}
+    "F:\\GitHub\\amr\\jed-amr.csproj": {}
   },
   "projects": {
-    "/home/nuruddeen/Dev/jed-amr/jed-amr.csproj": {
+    "F:\\GitHub\\amr\\jed-amr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nuruddeen/Dev/jed-amr/jed-amr.csproj",
+        "projectUniqueName": "F:\\GitHub\\amr\\jed-amr.csproj",
         "projectName": "jed-amr",
-        "projectPath": "/home/nuruddeen/Dev/jed-amr/jed-amr.csproj",
-        "packagesPath": "/home/nuruddeen/.nuget/packages/",
-        "outputPath": "/home/nuruddeen/Dev/jed-amr/obj/",
+        "projectPath": "F:\\GitHub\\amr\\jed-amr.csproj",
+        "packagesPath": "C:\\Users\\Iliyas\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHub\\amr\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/nuruddeen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Iliyas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -50,6 +62,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -57,6 +73,14 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "PasswordGenerator": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [
@@ -78,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
